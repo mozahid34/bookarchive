@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book Archive</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+</head>
+<body class="w-75 mx-auto">
+    <!---- Search---field--- -->
+    <h1 class="d-flex justify-content-center text-success">Search Your Favorite Book</h1>
+    <div class="input-group mb-3 mt-5 w-25 mx-auto text-success ">
+       
+        <input id="search" type="text" class="form-control" placeholder=" Search By Book-Name" aria-label="Recipient's username" aria-describedby="button-addon2">
+        <button onclick="loadData()" class="btn btn-outline-success" type="button" id="btn">Search</button>
+      </div>
+
+      <!-- warning-messege -->
+     <div class=" ">
+         <h3 class="d-flex justify-content-center mx-auto text-success" id="msg-1"></h3>
+         <h3 class="d-flex justify-content-center mx-auto text-success mx-auto" id="msg-2"></h3>
+         
+     </div>
+
+      <!-- ---Search- Result--- -->
+      <div id="div" class="row row-cols-1 row-cols-md-3 g-4 mt-4 d-flex " >
+          
+      </div>
+
+
+
+
+
+
+
+    
+     <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/app.js"></script>
+</body>
+</html>
